@@ -1,12 +1,13 @@
 // You do not need to do anything in this file
-import React from 'react';
+import React, { useState } from "react";
 
-const CommentInput = props => {
+const CommentInput = (props) => {
+  console.log("add comment", props);
   return (
     <form className="comment-form" onSubmit={props.submitComment}>
       <input
         type="text"
-        value={props.comment}
+        value={props.addcomment}
         placeholder="Add comment... "
         onChange={props.changeComment}
       />
