@@ -7,8 +7,12 @@
   background: #ffffff;
 }
 .search-form {
+  display: flex;
+  justify-content: center;
   width: 150px;
   font-size: 14px;
+  align-items: center;
+  margin-top: 3%;
 }
 .search-form input {
   text-align: center;
